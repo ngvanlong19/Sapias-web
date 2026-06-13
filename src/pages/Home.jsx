@@ -126,6 +126,13 @@ const Home = () => {
           </div>
         </div>
 
+        {/* 3 colored banners */}
+        <div className="footer-banners" style={{ marginBottom: '40px' }}>
+          <div className="footer-banner blue">TT KIỂM ĐỊNH CHẤT LƯỢNG GIÁO DỤC NGHỀ NGHIỆP</div>
+          <div className="footer-banner green">TRUNG TÂM TIN HỌC VÀ NGOẠI NGỮ</div>
+          <div className="footer-banner orange">TT DỰ BÁO VÀ CUNG ỨNG NGUỒN NHÂN LỰC</div>
+        </div>
+
         {/* BẢN TIN 24/7 Section */}
         <div style={{ marginBottom: '40px' }}>
           <h2 className="section-title">BẢN TIN 24/7</h2>
