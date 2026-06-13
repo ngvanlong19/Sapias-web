@@ -26,9 +26,9 @@ const Home = () => {
   ];
 
   const hiepHoilist = [
-    { id: 1, title: 'Hội nghị tổng kết năm 2020 và Tọa đàm: "Chương trình hành động của Hiệp hội 2021 - 2023, Chia sẻ tài nguyên các cơ sở GDNN ICHIKI"', image: 'https://vienatec.edu.vn/wp-content/uploads/2021/04/h-300x225.jpg', date: '29/04/2021', day: '29', month: 'Th4', slug: 'hoi-nghi-tong-ket' },
+    { id: 1, title: 'Hội nghị tổng kết năm 2020 và Tọa đàm: "Chương trình hành động của Hiệp hội 2021 - 2023, Chia sẻ tài nguyên các cơ sở GDNN SAPIAS"', image: 'https://vienatec.edu.vn/wp-content/uploads/2021/04/h-300x225.jpg', date: '29/04/2021', day: '29', month: 'Th4', slug: 'hoi-nghi-tong-ket' },
     { id: 2, title: 'Đào tạo trực tuyến - Giải pháp công nghệ giáo dục thời 4.0', image: 'https://vienatec.edu.vn/wp-content/uploads/2019/12/c357633a1cbbe5e5bcaa-1024x768.jpg', date: '26/10/2020', day: '22', month: 'Th6', slug: 'dao-tao-truc-tuyen' },
-    { id: 3, title: 'Lễ ký kết hợp tác giữa hiệp hội ICHIKI và đối tác Anh Quốc', image: 'https://vienatec.edu.vn/wp-content/uploads/2020/06/yHZ-yuV6rt9zIhTGRlo-QAp5z2zWM3E0sfnLO4Ygsj8Us2iqKZZZ2ei9yRMVMtv9-300x200.jpg', date: '01/06/2024', day: '25', month: 'Th12', slug: 'le-ky-ket-hop-tac' },
+    { id: 3, title: 'Lễ ký kết hợp tác giữa hiệp hội SAPIAS và đối tác Anh Quốc', image: 'https://vienatec.edu.vn/wp-content/uploads/2020/06/yHZ-yuV6rt9zIhTGRlo-QAp5z2zWM3E0sfnLO4Ygsj8Us2iqKZZZ2ei9yRMVMtv9-300x200.jpg', date: '01/06/2024', day: '25', month: 'Th12', slug: 'le-ky-ket-hop-tac' },
     { id: 4, title: 'Các hoạt động năm 2019', image: 'https://vienatec.edu.vn/wp-content/uploads/2019/12/5c9a816dffec06b25ffd-300x222.jpg', date: '01/06/2024', day: '01', month: 'Th6', slug: 'cac-hoat-dong-nam-2019' }
   ];
 
@@ -221,7 +221,7 @@ const Home = () => {
         <div style={{ textAlign: 'center', marginBottom: '30px' }}>
           <h2 className="section-title" style={{ fontSize: '20px' }}>ĐỐI TÁC LIÊN KẾT</h2>
           <p style={{ color: '#1e73be', fontSize: '14px', lineHeight: '1.8', maxWidth: '900px', margin: '0 auto', fontWeight: '300' }}>
-            ICHIKI luôn tìm kiếm cơ hội được hợp tác với các đối tác tin cậy để triển khai các hoạt động đào tạo ngoại ngữ, tư vấn du học, hợp tác quốc tế, hướng nghiệp.<br/>
+            SAPIAS luôn tìm kiếm cơ hội được hợp tác với các đối tác tin cậy để triển khai các hoạt động đào tạo ngoại ngữ, tư vấn du học, hợp tác quốc tế, hướng nghiệp.<br/>
             Thi cấp chứng chỉ ngoại ngữ, Tư vấn các chương trình du học, việc làm trong và ngoài nước.
           </p>
           <h3 className="section-title" style={{ fontSize: '20px', marginTop: '30px' }}>CÁC ĐỐI TÁC VÀ CÁC CHƯƠNG TRÌNH ĐÃ VÀ ĐANG HOẠT ĐỘNG</h3>

@@ -4,13 +4,14 @@ const About = () => {
       <section className="section about">
         <div className="container">
           <div className="text-center" style={{ marginBottom: '60px' }}>
-            <span className="section-subtitle">TỔNG QUAN VỀ ICHIKI</span>
+            <span className="section-subtitle">TỔNG QUAN VỀ SAPIAS</span>
             <h2 className="section-title" style={{ fontSize: '36px', marginBottom: '30px' }}>
               Nơi khởi nguồn<br />những ước mơ
             </h2>
             <div style={{ color: 'var(--text-muted)', fontSize: '18px', lineHeight: '1.8' }}>
-              <p style={{ marginBottom: '20px' }}>Trung tâm Nhật ngữ & Du học ICHIKI được thành lập với mục tiêu cung cấp các chương trình đào tạo tiếng Nhật chất lượng cao và tư vấn du học uy tín.</p>
-              <p>Chúng tôi tự hào sở hữu đội ngũ giảng viên chuyên nghiệp, chương trình học được thiết kế sát với thực tế, giúp học viên trang bị đầy đủ kiến thức và kỹ năng để tự tin bước vào môi trường làm việc thực tế.</p>
+              <p style={{ marginBottom: '20px' }}>Viện Phát Triển Giáo Dục Nghề Nghiệp SAPIAS được thành lập với mục tiêu cung cấp các chương trình đào tạo nghề nghiệp, công nghệ, ngoại ngữ chất lượng cao và tư vấn hướng nghiệp uy tín.</p>
+              <p style={{ marginBottom: '20px' }}>Với đội ngũ chuyên gia giàu kinh nghiệm và cơ sở vật chất hiện đại, SAPIAS cam kết mang đến môi trường học tập tốt nhất, giúp học viên trang bị đầy đủ kiến thức và kỹ năng thực tế để tự tin bước vào thị trường lao động toàn cầu.</p>
+              <p style={{ marginBottom: '30px' }}>Chúng tôi không ngừng đổi mới phương pháp giảng dạy, chú trọng thực hành và liên kết chặt chẽ với các doanh nghiệp để đảm bảo đầu ra chất lượng, đáp ứng nhu cầu thực tế của xã hội.</p>
             </div>
             <div className="about-image glass-card">
               <div className="placeholder-img navy-gradient" style={{ height: '400px' }}>

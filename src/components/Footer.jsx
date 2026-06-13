@@ -13,10 +13,10 @@ const Footer = () => {
       <div className="footer-content-custom">
         <div className="container footer-columns">
           <div className="footer-col-left">
-            <h3>VIỆN PHÁT TRIỂN GIÁO DỤC NGHỀ NGHIỆP ICHIKI</h3>
-            <p>Điện thoại : 0905 010 815</p>
-            <p>Email : info@ichiki.io.vn</p>
-            <p>Địa chỉ : 43 Nguyễn Văn Tuyết - Đống Đa - Hà Nội</p>
+            <h3>VIỆN PHÁT TRIỂN GIÁO DỤC NGHỀ NGHIỆP SAPIAS</h3>
+            <p>Điện thoại : 0967 522 522</p>
+            <p>Email : info@sapias.io.vn</p>
+            <p>Địa chỉ : 22 Lương Thế Vinh - Thanh Xuân - Hà Nội</p>
           </div>
         </div>
       </div>

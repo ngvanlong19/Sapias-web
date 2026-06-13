@@ -90,13 +90,13 @@ const CourseDetail = () => {
             ))}
           </div>
 
-          <h2 style={{ color: 'var(--secondary-color)', marginBottom: '20px', borderBottom: '2px solid var(--primary-color)', paddingBottom: '10px', display: 'inline-block' }}>Triết lý đào tạo tại Ichiki</h2>
+          <h2 style={{ color: 'var(--secondary-color)', marginBottom: '20px', borderBottom: '2px solid var(--primary-color)', paddingBottom: '10px', display: 'inline-block' }}>Triết lý đào tạo tại Sapias</h2>
           <p style={{ marginBottom: '40px' }}>{course.longText}</p>
           
           {/* Duplicate some long text blocks with slight modifications to simulate the requested 2000-word SEO length effectively for the user */}
           <h2 style={{ color: 'var(--secondary-color)', marginBottom: '20px', borderBottom: '2px solid var(--primary-color)', paddingBottom: '10px', display: 'inline-block' }}>Tại sao phương pháp của chúng tôi hiệu quả?</h2>
-          <p style={{ marginBottom: '20px' }}>Bên cạnh lộ trình học tập được thiết kế tinh gọn, yếu tố làm nên sự khác biệt của Ichiki chính là hệ thống bài tập thực hành ứng dụng thực tế. Theo thống kê, việc học ngôn ngữ sẽ bị lãng quên tới 70% sau 24 giờ nếu không được ôn tập lại. Do đó, hệ thống E-learning của chúng tôi yêu cầu học viên phải hoàn thành các bài test ngắn mỗi ngày (Daily quiz). Các bài test này không chỉ kiểm tra lý thuyết mà còn là các tình huống giao tiếp, bài tập luyện nghe phản xạ. Điều này giúp não bộ liên tục ghi nhớ và tạo lập thói quen tư duy bằng tiếng Nhật.</p>
-          <p style={{ marginBottom: '40px' }}>Đội ngũ chăm sóc học viên (Academic Supporter) luôn túc trực 24/7 để sửa lỗi phát âm qua các bài tập thu âm (Shadowing), cũng như giải đáp từng cấu trúc ngữ pháp nhỏ nhất mà học viên chưa hiểu trên lớp. Sự đồng hành sát sao này giúp tỉ lệ bỏ cuộc giữa chừng của học viên Ichiki luôn ở mức dưới 5%, một con số ấn tượng so với mặt bằng chung.</p>
+          <p style={{ marginBottom: '20px' }}>Bên cạnh lộ trình học tập được thiết kế tinh gọn, yếu tố làm nên sự khác biệt của Sapias chính là hệ thống bài tập thực hành ứng dụng thực tế. Theo thống kê, việc học ngôn ngữ sẽ bị lãng quên tới 70% sau 24 giờ nếu không được ôn tập lại. Do đó, hệ thống E-learning của chúng tôi yêu cầu học viên phải hoàn thành các bài test ngắn mỗi ngày (Daily quiz). Các bài test này không chỉ kiểm tra lý thuyết mà còn là các tình huống giao tiếp, bài tập luyện nghe phản xạ. Điều này giúp não bộ liên tục ghi nhớ và tạo lập thói quen tư duy bằng tiếng Nhật.</p>
+          <p style={{ marginBottom: '40px' }}>Đội ngũ chăm sóc học viên (Academic Supporter) luôn túc trực 24/7 để sửa lỗi phát âm qua các bài tập thu âm (Shadowing), cũng như giải đáp từng cấu trúc ngữ pháp nhỏ nhất mà học viên chưa hiểu trên lớp. Sự đồng hành sát sao này giúp tỉ lệ bỏ cuộc giữa chừng của học viên Sapias luôn ở mức dưới 5%, một con số ấn tượng so với mặt bằng chung.</p>
 
           <div style={{ 
             background: 'linear-gradient(135deg, var(--secondary-color), #0B192C)', 
@@ -106,7 +106,7 @@ const CourseDetail = () => {
             textAlign: 'center',
             marginTop: '60px'
           }}>
-            <h2 style={{ marginBottom: '15px' }}><i className="fas fa-shield-alt" style={{ color: '#F4A261' }}></i> Cam kết của Ichiki</h2>
+            <h2 style={{ marginBottom: '15px' }}><i className="fas fa-shield-alt" style={{ color: '#F4A261' }}></i> Cam kết của Sapias</h2>
             <p style={{ fontSize: '1.2rem', marginBottom: '30px' }}>{course.guarantee}</p>
             <Link to="/contact" className="btn btn-primary btn-lg">Đăng ký tư vấn khóa học này</Link>
           </div>

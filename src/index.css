@@ -3,19 +3,19 @@
 /* ===== CSS VARIABLES ===== */
 :root {
   /* Colors */
-  --primary-color: #1e73be; /* Vienatec Blue */
-  --primary-dark: #155a96;
-  --secondary-color: #00a859; /* Vienatec Green */
-  --accent-color: #0066bf;
+  --primary-color: #e63946; /* Sapias Red */
+  --primary-dark: #d62828;
+  --secondary-color: #f77f00; /* Sapias Orange */
+  --accent-color: #fcbf49;
   --light-bg: #F8F9FA;
   --white: #FFFFFF;
   --text-main: #333333;
   --text-muted: #6C757D;
   
   /* Gradients */
-  --grad-blue: linear-gradient(135deg, #1e73be, #155a96);
-  --grad-red: linear-gradient(135deg, #00a859, #008a49);
-  --grad-gold: linear-gradient(135deg, #1e73be, #00a859);
+  --grad-blue: linear-gradient(135deg, #e63946, #d62828);
+  --grad-red: linear-gradient(135deg, #f77f00, #e63946);
+  --grad-gold: linear-gradient(135deg, #e63946, #f77f00);
 
   /* Shadows & Glassmorphism */
   --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -105,13 +105,13 @@ img {
 }
 
 .header-top {
-  background-color: rgba(94,94,94,0.93) !important;
+  background-color: var(--primary-dark) !important;
   color: #fff;
   padding: 5px 0;
 }
 
 .header-bottom {
-  background-color: #00a859;
+  background-color: var(--primary-color);
 }
 
 .nav {
@@ -167,7 +167,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #1e73be;
+  background-color: var(--primary-color);
   color: #fff;
   text-align: center;
   padding: 5px;
@@ -193,7 +193,7 @@ img {
 /* Section Titles */
 .section-title {
   text-align: center;
-  color: #00a859;
+  color: var(--primary-color);
   text-transform: uppercase;
   font-size: 24px;
   margin-bottom: 25px;
@@ -269,7 +269,7 @@ img {
 
 /* Courses Block */
 .courses-block {
-  background-color: #1e73be;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 40px 0;
   margin: 40px 0;
@@ -362,7 +362,7 @@ img {
 
 /* Footer Adjustments */
 .footer {
-  background-color: #004f9e;
+  background-color: var(--primary-dark);
   color: #fff;
   padding: 40px 0;
 }
@@ -714,7 +714,7 @@ img {
 
 /* ===== FOOTER ===== */
 .footer {
-  background-color: #004f9e;
+  background-color: var(--primary-dark);
   color: #fff;
   padding-top: 80px;
   margin-top: auto;
@@ -883,13 +883,12 @@ img {
   font-size: 13px;
   text-transform: uppercase;
 }
-.footer-banner.blue { background-color: #1e73be; }
-.footer-banner.green { background-color: #8da959; }
-.footer-banner.orange { background-color: #d97550; }
+.footer-banner.blue { background-color: var(--primary-color); }
+.footer-banner.green { background-color: var(--secondary-color); }
+.footer-banner.orange { background-color: var(--accent-color); }
 
 .footer-content-custom {
-  background-color: #004b93;
-  color: white;
+  background-color: var(--primary-dark);
   padding: 40px 0;
 }
 .footer-content-custom h3 {

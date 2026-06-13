@@ -81,7 +81,7 @@
 .header-main {
   height: 149px;
   background-image: url('/assets/vienatec/trongdong.png');
-  background-color: rgba(0,102,191,0.89);
+  background-color: rgba(214,40,40,0.89);
   background-blend-mode: overlay;
   display: flex;
   align-items: center;
@@ -100,7 +100,7 @@
 
 /* Bottom Nav */
 .header-bottom {
-  background-color: #00a859;
+  background-color: var(--primary-color);
   height: 50px;
   display: flex;
   align-items: center;

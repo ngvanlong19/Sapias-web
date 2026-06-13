@@ -1,7 +1,7 @@
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Cảm ơn bạn! Thông tin đăng ký đã được ghi nhận. Ichiki sẽ liên hệ với bạn trong thời gian sớm nhất.');
+    alert('Cảm ơn bạn! Thông tin đăng ký đã được ghi nhận. Sapias sẽ liên hệ với bạn trong thời gian sớm nhất.');
   };
 
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="container">
           <div className="text-center" style={{ marginBottom: '60px' }}>
             <span className="section-subtitle">LIÊN HỆ VỚI CHÚNG TÔI</span>
-            <h1 className="section-title">Kết nối với Ichiki</h1>
+            <h1 className="section-title">Kết nối với Sapias</h1>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '50px', alignItems: 'start' }}>
@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ margin: 0 }}>Địa chỉ</h4>
-                    <p className="text-muted" style={{ margin: 0 }}>43 Nguyễn Văn Tuyết - Đống Đa - Hà Nội</p>
+                    <p className="text-muted" style={{ margin: 0 }}>22 Lương Thế Vinh - Thanh Xuân - Hà Nội</p>
                   </div>
                 </li>
                 <li style={{ marginBottom: '20px' }}>
@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ margin: 0 }}>Điện thoại</h4>
-                    <p className="text-muted" style={{ margin: 0 }}>0905 010 815</p>
+                    <p className="text-muted" style={{ margin: 0 }}>0967 522 522</p>
                   </div>
                 </li>
                 <li style={{ marginBottom: '20px' }}>
@@ -68,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ margin: 0 }}>Email</h4>
-                    <p className="text-muted" style={{ margin: 0 }}>info@ichiki.io.vn</p>
+                    <p className="text-muted" style={{ margin: 0 }}>info@sapias.io.vn</p>
                   </div>
                 </li>
               </ul>

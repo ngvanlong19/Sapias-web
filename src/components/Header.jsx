@@ -36,7 +36,7 @@ const Header = () => {
         <div className="container logo-center">
           <Link to="/" className="logo" onClick={closeMenu} style={{ textDecoration: 'none' }}>
             <h1 style={{ color: 'white', margin: 0, fontSize: '28px', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0,0,0,0.6)', padding: '20px 0' }}>
-              VIỆN PHÁT TRIỂN GIÁO DỤC NGHỀ NGHIỆP ICHIKI
+              VIỆN PHÁT TRIỂN GIÁO DỤC NGHỀ NGHIỆP SAPIAS
             </h1>
           </Link>
           <button className="mobile-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
