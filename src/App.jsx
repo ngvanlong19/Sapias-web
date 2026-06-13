@@ -6,6 +6,7 @@ import About from './pages/About';
 import Courses from './pages/Courses';
 import CourseDetail from './pages/CourseDetail';
 import Contact from './pages/Contact';
+import Article from './pages/Article';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -21,17 +22,20 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/courses/:courseId" element={<CourseDetail />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-      <Footer />
+      <div className="site-wrapper">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/courses" element={<Courses />} />
+            <Route path="/courses/:courseId" element={<CourseDetail />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/tin-tuc/:slug" element={<Article />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }

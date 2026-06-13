@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ margin: 0 }}>Địa chỉ</h4>
-                    <p className="text-muted" style={{ margin: 0 }}>25 Tân Định, Hồ Chí Minh, Việt Nam</p>
+                    <p className="text-muted" style={{ margin: 0 }}>43 Nguyễn Văn Tuyết - Đống Đa - Hà Nội</p>
                   </div>
                 </li>
                 <li style={{ marginBottom: '20px' }}>
@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ margin: 0 }}>Điện thoại</h4>
-                    <p className="text-muted" style={{ margin: 0 }}>0905688845</p>
+                    <p className="text-muted" style={{ margin: 0 }}>0905 010 815</p>
                   </div>
                 </li>
                 <li style={{ marginBottom: '20px' }}>
@@ -68,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ margin: 0 }}>Email</h4>
-                    <p className="text-muted" style={{ margin: 0 }}>contact@ichiki.io.vn</p>
+                    <p className="text-muted" style={{ margin: 0 }}>info@ichiki.io.vn</p>
                   </div>
                 </li>
               </ul>
